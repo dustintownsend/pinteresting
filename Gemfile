@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # getbookstrap.com
 gem "bootstrap-sass", "~> 3.0.3.0"
 
+#https://github.com/plataformatec/devise
+gem "devise", "~> 3.2.2"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
