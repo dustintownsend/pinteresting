@@ -39,6 +39,9 @@ gem "aws-sdk", "~> 1.31.3"
 
 gem 'masonry-rails', '~> 0.2.1'
 
+gem 'will_paginate', '~> 3.0.5'
+
+gem 'will_paginate-bootstrap'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
