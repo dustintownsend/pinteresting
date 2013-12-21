@@ -26,10 +26,15 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 # getbookstrap.com
-gem "bootstrap-sass", "~> 3.0.3.0"
+gem 'bootstrap-sass', '~> 3.0.3.0'
 
 #https://github.com/plataformatec/devise
 gem "devise", "~> 3.2.2"
+
+# https://github.com/thoughtbot/paperclip
+gem 'paperclip', '~> 3.0'
+
+gem "aws-sdk", "~> 1.31.3"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
